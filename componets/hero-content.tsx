@@ -2,7 +2,7 @@ import React from "react";
 
 function HeroContent() {
   return (
-    <div className="flex flex-col gap-4 px-4">
+    <div className="flex flex-col gap-4 px-4 lg:px-0">
       <div className="w-fit bg-white border border-gray-300 shadow-xs py-1 pr-2.5 pl-1 gap-2 flex items-center rounded-[10px]">
         <div className="border border-gray-300 bg-white shadow-xs py-0.5 gap-1 rounded-[6px] px-1.5 flex items-center flex-nowrap">
           {/* <div className="bg-emerald-500 flex-1 rounded-full size-1.5 aspect-square" /> */}

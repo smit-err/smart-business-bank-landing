@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import SiteHeader from "@/componets/site-header";
 
 const inter = localFont({
   src: "./fonts/inter.ttf",
@@ -24,6 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} ${ibm_mono.variable} antialiased`}>
+        <SiteHeader />
         {children}
       </body>
     </html>
