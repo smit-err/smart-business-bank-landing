@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
-import { IBM_Plex_Mono, Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Inter({
-  subsets: ["latin"],
+const inter = localFont({
+  src: "./fonts/inter.ttf",
 });
 
-const ibm_mono = IBM_Plex_Mono({
-  subsets: ["latin"],
-  weight: ["500"],
+const ibm_mono = localFont({
+  src: "./fonts/ibm-plex-500.ttf",
   variable: "--font-ibm-mono",
 });
 
