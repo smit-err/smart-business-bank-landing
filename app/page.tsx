@@ -1,3 +1,4 @@
+import CTASection from "@/componets/cta-section";
 import FeatureSection from "@/componets/feature-section";
 import HeroSection from "@/componets/hero-section";
 import PricingSection from "@/componets/pricing-section";
@@ -10,6 +11,7 @@ export default function Home() {
       <FeatureSection />
       <PricingSection />
       <SocialProofSection />
+      <CTASection />
     </>
   );
 }
